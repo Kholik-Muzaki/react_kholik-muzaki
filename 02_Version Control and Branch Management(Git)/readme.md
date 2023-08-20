@@ -14,15 +14,15 @@ Github merupakan salah satu Version Control System yang sering digunakan. Sehing
 
 ## 4. Beberapa perintah dalam GIT
 
-### a. Git config –global user.name “kholik muzaki”
+a. Git config –global user.name “kholik muzaki”
 
 Untuk konfigurasi username pada git
 
-### b. Git config –global user.email “kholiqmuzakky01@gmail.com”
+b. Git config –global user.email “kholiqmuzakky01@gmail.com”
 
 Untuk konfigurasi email pada git
 
-### c. Git clone
+c. Git clone
 
 Untuk menduplikasi suatu project yang sudah ada di sebuah repository github. Yang harus dilakukan :
 Melalui git bash
@@ -39,88 +39,89 @@ Melalui git bash
 - git push origin
 - Maka file yang sudah dibuat akan masuk kedalam repository
 
-### d. Git diff
+d. Git diff
 
 Untuk melihat perubahan yang dibuat sebelum di push kedalah repository.
 
-### e. Git stash
+e. Git stash
 
 Untuk melihat seperti history yang pernah kita edit/rubah dalam sebuah file
 
-### f. File .gitignore
+f. File .gitignore
 
 Berfungsi untuk memfilter file apa saja yang diperbolehkan masuk kedalam repository
 
 ## 5. THE STAGING AREA
+
 Alur dalam suatu local storage untuk dapat masuk ke github repository itu terdapat beberapa tahapan diantaranya.
 
-### a. Working directory
+a. Working directory
 
 Kondisi dimana file masih berasa di local storage, dan untuk masuk kedalam staging directory perlu yang dinamakan sebuah git add
 
-### b. Staging directory
+b. Staging directory
 
 Kondisi dimana file masih berada di local storage dan sudah siap untuk masuk kedalam repository, namun untuk dapat masuk kedalam repository perlu yang dinamakan git commit
 
-### c. Repository
+c. Repository
 
 Kondisi dimana file sudah masuk kedalam repository
 
 ## 6. INSPECTING REPOSITORY
 
-### a. Git log –oneline
+a. Git log –oneline
 
 Untuk menampilkan setiap commit yang sudah pernah dibuat. Setelah perintah ini diketikkan maka kita bisa melihat apa saja commit yang sudah pernah kita buat dan juga kita dapat beralih ke commit yang pernah kita buat sebelumnya dengan mengetikkan perintah git checkout nama commit yang akan dituju
 
-### b. Git reset
+b. Git reset
 
 --soft
 --hard
 
 ## 7. SYNCING
 
-### a. Git remote -v
+a. Git remote -v
 
 Unutuk mengetahui link/remote dari repository
 
-### b. Git pull origin main
+b. Git pull origin main
 
 Digunakan untuk melakukan pull(mengembalikan) file seperti yang ada pada repository
 
-### c. Git push origin main
+c. Git push origin main
 
 Digunakan untuk memindahkan file dari local storage kedalam repository
 
-### d. Git fetch
+d. Git fetch
 
 ###8. BRANCHES
 Branches(percabangan) dalam pembuatan github, berfungsi untuk melindungi main project yang sedang kita buat.
 
-### a. Git branch –list
+a. Git branch –list
 
 Digunakan untuk melihat semua branch
 
-### b. Git branch nama branch
+b. Git branch nama branch
 
 Digunakan untuk membuat branch baru
 
-### c. Git push -u origin nama branch
+c. Git push -u origin nama branch
 
 Untuk push branch baru
 
-### d. Git branch -d nama branch
+d. Git branch -d nama branch
 
 Untuk menghapus branch
 
-### e. Git branch -a
+e. Git branch -a
 
 Untuk melihat list remote branch
 
-### f. Git checkout nama branch
+f. Git checkout nama branch
 
 Digunakan untuk berpindah branch
 
-### g. Git merge
+g. Git merge
 
 Untuk memindahkan suatu perubahan dari suatu beanch kedalam main. Contoh: Kita sudah membuat perubahan dan kita push kedalam branch Developer, dan file tersebut sudah fix tanpa ada kendala. Kita ingin memasukan file tersebut kedalam main repository maka tahapan yang harus dilakukan adalah :
 
@@ -133,39 +134,39 @@ Untuk memindahkan suatu perubahan dari suatu beanch kedalam main. Contoh: Kita s
 Digunakan untuk kita berkontribusi terhadap repository yang sudah ada.
 Langkah-langkahnya sebagai berikut.
 
-### a. Masuk kedalam repositorynya
+a. Masuk kedalam repositorynya
 
-### b. Lalu klik bagian fork
+b. Lalu klik bagian fork
 
-### c. Setelah itu lakukan clone pada repository tersebut
+c. Setelah itu lakukan clone pada repository tersebut
 
-### d. Lalu lakukan kontribusi didalamnya
+d. Lalu lakukan kontribusi didalamnya
 
-### e. Lalu git add
+e. Lalu git add
 
-### f. Commit kearah repository kita
+f. Commit kearah repository kita
 
-### g. Lalu push kedalam branch fork kita sebelumnya
+g. Lalu push kedalam branch fork kita sebelumnya
 
-### h. Setelah itu tinggal menunggu request disetujui oleh pemilik
+h. Setelah itu tinggal menunggu request disetujui oleh pemilik
 
-### i. Lalu bisa kita klik compare & pull request
+i. Lalu bisa kita klik compare & pull request
 
-### j. Kita bisa menulisakn pesan kita kepada pemilik repository
+j. Kita bisa menulisakn pesan kita kepada pemilik repository
 
-### k. Setelah disetujui tinggal klik bagian merge
+k. Setelah disetujui tinggal klik bagian merge
 
 Pull and Request dapat juga dilakukan dalam sebuah case apabila kite memiliki satu project bersama namun dalam pengembangannya dilakukan oleh beberapa collaborate, sehingga setiap collaborate mengerjakan suatu pekerjaan dalam sebuah branch baru yang nantinya dijadikan satu(merge) kedalam main branch. Adapun langkahnya sebagai berikut.
 
-### a. Create new branch
+a. Create new branch
 
-### b. Lakukan changes file yang nantinya akan di merge ke branch utama
+b. Lakukan changes file yang nantinya akan di merge ke branch utama
 
-### c. Commit file tersebut kedalam branch baru
+c. Commit file tersebut kedalam branch baru
 
-### d. Lakukan push kedalam repository
+d. Lakukan push kedalam repository
 
-### e. Lalu pilih pull & request untuk melakukan merge file tersebut kedalam branch utama
+e. Lalu pilih pull & request untuk melakukan merge file tersebut kedalam branch utama
 
 ## 10. WORKFLOW COLLABORATION
 
@@ -173,16 +174,18 @@ Tujuan dari workflow collaboration bagaimana kita mengolah branch secara baik da
 
 ## 11. TIPS SEPUTAR GITHUB REPOSITORY
 
-### a. Biarkan branch master tidak terdistribusi
+a. Biarkan branch master tidak terdistribusi
 
 Buat branch baru(branch development contohnya) untuk media pengeditan, jangan mengedit langsung pada branch master
 
-### b. Hindari mengedit langsung dari branch master atau development branch
+b. Hindari mengedit langsung dari branch master atau development branch
 
 Untuk mengedit pada bagian branch developer sebaiknya dibuat branch baru lagi(feature 1, featur 2,…).
-### c. Merge feature yang sudah fix kedalam branch development
+
+c. Merge feature yang sudah fix kedalam branch development
+
 Untuk feature yang sudah fix, merge kedalam branch development. Jangan di merge kedalam branch master.
 
-### d. Merge pada bagian branch development kedalam branch master
+d. Merge pada bagian branch development kedalam branch master
 
 Ketika semua fitur sudah di merge kedalam branch development, tahap selanjutnya adalah merge bagian branch development kedalam branch master.
