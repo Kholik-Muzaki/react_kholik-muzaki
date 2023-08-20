@@ -8,13 +8,13 @@
 ## 3. Cara memulai menjadi seorang front-end developer
    Secara garis besar untuk menjadi seorang front-end developer dapat digambarkan menjadi beberapa aspek yang harus dikuasai meliputi:
 
-### 1) Internet
+   1. Internet
    Merupakan singkatan dari international network, yang didefinisikan sebagai suatu jaringan komputer yang sangat besar, dimana jaringan komputer tersebut terdiri dari beberapa jaringan-jaringan kecul yang saling terhubung satu sama lain. Beberapa komponen yang ada di internet, diantaranya: IP Adress, Domain Name, ISP(Internet Service Provider), DNS(Domain Name Server), HTTP(Protokol yang digunakan client dan server untuk berhubungan), Hosting(Penyimpanan file sebuah website dalam suatu server).
-### 2) HTML
+   2. HTML
    HTML(Hypertext Markup Language) merupakan suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar. Dan bisa juga diartikan kerangka utama dalam sebuah website.
-### 3) CSS
+    3. CSS
    CSS(Cascading Style Sheet) dipergunakan untuk menentukan tampilan dan format pada sebuah website. Artinya, dengan adanya CSS bisa mengatur mulai dari font, warna tulisan dan latar belakang pada website tersebut. Dapat diartikan juga sebagai sebuha style dari sebuah HTML.
-### 4) Javascript
+    4. Javascript
    Javascript bahasa pemrograman yang digunakan developer untuk membuat halaman web yang interaktif. Dan dapat diartikan sebagai pelengkap dari HTML dan CSS agar sebuah website lebih interaktif
 
 ## 4. Version Control
