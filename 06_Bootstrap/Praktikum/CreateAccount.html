@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Experience</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Landing Page" />
+    <link href="https://fonts.googleapis.com/css2?family=Jost&family=Open+Sans&family=Roboto&display=swap"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Simple Header</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white bg-primary rounded-3" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary fw-normal" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">FaQs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- container -->
+    <div class="container">
+        <div class="row">
+            <div class="col mt-2 d-flex justify-content-center">
+                <img src="logo.png" alt="logo" height="57px" width="70px" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col mt-2 d-flex justify-content-center">
+                <h2>Create Account</h2>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col">
+                <p class="text-center">
+                    Below is an example form built entirely with Bootstrap’s form controls. Each required form group has
+                    a validation state that can be triggered by attempting to submit the form without completing it.
+                </p>
+            </div>
+        </div>
+
+        <form>
+            <h4>Detail Product</h4>
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <label for="validationDefault01" class="form-label">First Name :
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault01" required />
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 col-lg-6">
+                        <label for="validationDefault01" class="form-label">Last Name :
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault01" required />
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <label for="validationDefaultUsername" class="form-label">Username</label>
+                        <div class="input-group">
+                            <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                            <input type="text" class="form-control" id="validationDefaultUsername"
+                                aria-describedby="inputGroupPrepend2" placeholder="username">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <label for="validationDefault01" class="form-label">Email :
+                        </label>
+                        <input type="email" class="form-control" id="validationDefault01" placeholder="you@example.com"
+                            required />
+                    </div>.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="validationDefault04" class="form-label">Gender :
+                </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Male
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Female
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        Others
+                    </label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <label for="validationDefault01" class="form-label">Adress :
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="123 main st"
+                            required />
+                    </div>.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <label for="validationDefault01" class="form-label">Adress 2 (optional):
+                        </label>
+                        <input type="text" class="form-control" id="validationDefault01"
+                            placeholder="Apartment or suite" required />
+                    </div>.
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <label for="validationDefault04" class="form-label">Nationality :
+                    </label>
+                    <select class="form-select" aria-label="Default select example" id="validationDefault04" required>
+                        <option selected>Choose</option>
+                        <option value="1">Indonesia</option>
+                        <option value="2">Malaysia</option>
+                        <option value="3">Singapore</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+
+            <div class="mb-3">
+                <label for="validationDefault04" class="form-label">Language Spoken :
+                </label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Bahasa
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        English
+                    </label>
+                </div>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Others
+                    </label>
+                </div>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto mt-5 mb-2">
+                <button class="btn btn-primary" type="button">Submit form</button>
+            </div>
+        </form>
+    </div>
+    <!-- end container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
