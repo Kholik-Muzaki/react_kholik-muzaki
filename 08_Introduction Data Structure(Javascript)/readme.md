@@ -12,10 +12,10 @@ Data adalah cakupan luas merujuk tipe semua tipe informasi yang tersimpan dalam 
 
 Terdapat 4 operasi dalam data structure yaitu :
 
-    - Read
-    - Delete
-    - Search
-    - Insert
+- Read
+- Delete
+- Search
+- Insert
 
 ### Array
 
@@ -45,7 +45,7 @@ Data structure sama seperti array, tetapi perbedaanya hanya pada set yang tidak 
 
 ### Operasi pada Set
 
-    1. Reading : dapat menggunakan forEach
-    2. Searching : dapat menggunakan has method
-    3. Deletion : dapat menggunakan method delete()
-    4. Insertion : perlu beberapa step tambahan untuk memastikan bahwa value yang ingin dimasukkan tidak ada di dalam set, setelah itu operasi searching akan dijalankan terlebih dahulu untuk melihat valuenya (operasi searching bisa mencapai N steps).
+1. Reading : dapat menggunakan forEach
+2. Searching : dapat menggunakan has method
+3. Deletion : dapat menggunakan method delete()
+4. Insertion : perlu beberapa step tambahan untuk memastikan bahwa value yang ingin dimasukkan tidak ada di dalam set, setelah itu operasi searching akan dijalankan terlebih dahulu untuk melihat valuenya (operasi searching bisa mencapai N steps).
