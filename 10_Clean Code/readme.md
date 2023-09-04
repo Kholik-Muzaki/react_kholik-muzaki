@@ -28,7 +28,8 @@ Clean code adalah istilah untuk kode yang mudah dibaca, difahami dan diubah oleh
 - Deklarasi variable berdekatan dengan penggunanya
 - Perhatikan indentasi
 - Menggunakan prettier atau formater
-  Clean code principle
+
+### Clean code principle
 
 #### 1. KISS (Keep It So Simple)
 
