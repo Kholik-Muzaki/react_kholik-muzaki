@@ -6,14 +6,14 @@ JSX adalah singkatan dari Javascript XML, yang merupakan ekstensi dari javascrip
 
 ### Spesifikasi jenis elemen react
 
-    - Kapitalisasi untuk komponen react
-    - Huruf kecil (lowercase) untuk komponen bawaan
+- Kapitalisasi untuk komponen react
+- Huruf kecil (lowercase) untuk komponen bawaan
 
 ### Menentukan atribut dengan JSX
 
-    - Tanda kutip untuk menentukan string literal
-    - Kurung kurawal untuk menyematkan ekspresi javascript
-    - React DOM menggunakan camelCase sebagai konvensi penamaan
+- Tanda kutip untuk menentukan string literal
+- Kurung kurawal untuk menyematkan ekspresi javascript
+- React DOM menggunakan camelCase sebagai konvensi penamaan
 
 ### Menspesifikasikan elemen anak dengan JSX
 
@@ -30,12 +30,15 @@ Props adalah singkatan dari properties, membuat kita dapat memberikan argumen / 
 Lifecycle methid yang umum diantaranya :
 
 1. render()
+
    Merupakan fungsi yang paling sering dipakai. Render() juga memiliki required pada class component, serta pure function, artinya tidak boleh ada setState()
 
 2. componentDidMount()
+
    Dipanggil ketika komponen sudah di render untuk pertama kali, componentDidMount() juga merupakan tempat yang tepat untuk pemanggilan API dan juga boleh memiliki setState()
 
 3. componentDidUpdate()
+
    Dipanggil ketika terjadi update (props atau state berubah)
 
 4. componentWillUnmount()
