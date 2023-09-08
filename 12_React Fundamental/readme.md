@@ -30,17 +30,23 @@ Props adalah singkatan dari properties, membuat kita dapat memberikan argumen / 
 Lifecycle methid yang umum diantaranya :
 
 1. render()
-<p>Merupakan fungsi yang paling sering dipakai. Render() juga memiliki required pada class component, serta pure function, artinya tidak boleh ada setState()
+   Merupakan fungsi yang paling sering dipakai. Render() juga memiliki required pada class component, serta pure function, artinya tidak boleh ada setState()
+
 2. componentDidMount()
-<p>Dipanggil ketika komponen sudah di render untuk pertama kali, componentDidMount() juga merupakan tempat yang tepat untuk pemanggilan API dan juga boleh memiliki setState()
+   Dipanggil ketika komponen sudah di render untuk pertama kali, componentDidMount() juga merupakan tempat yang tepat untuk pemanggilan API dan juga boleh memiliki setState()
+
 3. componentDidUpdate()
-<p>Dipanggil ketika terjadi update (props atau state berubah)
+   Dipanggil ketika terjadi update (props atau state berubah)
+
 4. componentWillUnmount()
-<p>Dipanggil ketika component akan dihancurkan dan sangat cocok untuk clean up actions
+
+   Dipanggil ketika component akan dihancurkan dan sangat cocok untuk clean up actions
+
 Selain ke-4 lifcycle yang ada diatas, tedapat beberapa lifecycle yang lain, diantaranya :
-5. shouldComponentUpdate()
-6. staic getDerivedStateFromProps()
-7. getSnapshotBeforeUpdate()
+
+1. shouldComponentUpdate()
+2. staic getDerivedStateFromProps()
+3. getSnapshotBeforeUpdate()
 
 ### Condition dan list
 
@@ -60,7 +66,9 @@ React tidak memiliki pendapat (unopinionated) tentang bagaimana cara memasukan f
 
 1. Pengelompokan berdasarkan fitur atur rute
 2. Pengelompokan berdasarkan jenis file
-   Hal-hal yang perlu diperhatikan dalam data structure:
+
+Hal-hal yang perlu diperhatikan dalam data structure:
+
 1. Hindari terlalu banyak nesting
 2. Jangan terlalu memikirkannya
 
