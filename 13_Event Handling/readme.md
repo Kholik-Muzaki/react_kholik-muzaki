@@ -11,9 +11,9 @@ Dalam penanganan event, "state" merujuk pada kondisi atau data saat ini dari apl
 ### Statefull – Stateless
 
 - Komponen Berkeadaan (Stateful)
-  Komponen berkeadaan adalah komponen yang mempertahankan dan mengelola keadaan internalnya sendiri. Mereka dapat mengubah keadaannya sebagai respons terhadap event atau interaksi pengguna. Komponen berkeadaan sering digunakan untuk elemen UI yang kompleks atau yang memerlukan keberlanjutan data.
+    Komponen berkeadaan adalah komponen yang mempertahankan dan mengelola keadaan internalnya sendiri. Mereka dapat mengubah keadaannya sebagai respons terhadap event atau interaksi pengguna. Komponen berkeadaan sering digunakan untuk elemen UI yang kompleks atau yang memerlukan keberlanjutan data.
 - Komponen Tanpa Keadaan (Stateless)
-  Komponen tanpa keadaan, juga dikenal sebagai "komponen fungsional" dalam beberapa kerangka kerja seperti React, tidak mengelola keadaan mereka sendiri. Mereka lebih sederhana dan lebih fokus pada perenderan UI berdasarkan properti input. Komponen tanpa keadaan sering digunakan untuk tujuan presentasi.
+     Komponen tanpa keadaan, juga dikenal sebagai "komponen fungsional" dalam beberapa kerangka kerja seperti React, tidak mengelola keadaan mereka sendiri. Mereka lebih sederhana dan lebih fokus pada perenderan UI berdasarkan properti input. Komponen tanpa keadaan sering digunakan untuk tujuan presentasi.
 
 ### Penanganan Event
 
