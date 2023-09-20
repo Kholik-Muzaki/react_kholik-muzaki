@@ -76,11 +76,14 @@ Form controlled dan uncontrolled memiliki kelebihannya sendiri. Kita perlu menge
 
 Pada dasarnya, ada 3 alasan mengapa validasi form diperlukan:
 
-1. Mencari input data yang benar dan sesuai format, sebuah web/aplikasi tidak dapat berjalan dengan benar, jika data yang diolah tidak sesuai dengan kebutuhan aplikasi.
+1. Mencari input data yang benar dan sesuai format
+   Sebuah web/aplikasi tidak dapat berjalan dengan benar, jika data yang diolah tidak sesuai dengan kebutuhan aplikasi.
 
-2. Melindungi akun pengguna, misalnya, membuat pengguna untuk memasukkan data password yang aman.
+2. Melindungi akun pengguna
+   Misalnya, membuat pengguna untuk memasukkan data password yang aman.
 
-3. Melindungi sistem/aplikasi, validasi form yang kuta dapat meminimalisir perilaku pengguna yang ingin meretas sistem/aplikasi.
+3. Melindungi sistem/aplikasi
+   Validasi form yang kuta dapat meminimalisir perilaku pengguna yang ingin meretas sistem/aplikasi.
 
 ### Tipe Validasi Data Formulir
 
