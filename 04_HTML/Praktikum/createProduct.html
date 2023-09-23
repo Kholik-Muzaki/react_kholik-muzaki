@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Product</title>
+  </head>
+  <body>
+    <form method="post" action="#">
+      <h1>Create Product</h1>
+      <h2>Detail Form</h2>
+
+      <div>
+        <label for="Pname">Product Name : </label> <br />
+        <input type="text" id="Pname" name="Pname" minlength="6" maxlength="50"/>
+      </div>
+
+      <div>
+        <label for="Pcategory">Product Category : </label> <br />
+        <select name="Pcategory" id="Pcategory">
+          <option value="car">Car</option>
+          <option value="motorcycle">Motorcycle</option>
+          <option value="bicycle">Bicycle</option>
+          <option value="train">Train</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="Pfreshness">Product Freshness : </label> <br />
+        <input type="radio" id="Bnew" name="Bnew" />
+        <label for="Bnew">Brand New</label><br />
+
+        <input type="radio" id="Shank" name="Shank" />
+        <label for="Shank">Second Hank</label><br />
+
+        <input type="radio" id="refurbished" name="refurbished" />
+        <label for="refurbished">Refurbished</label>
+      </div>
+
+      <div>
+        <p>
+          Image of product
+          <input type="file"></input>
+        </p>
+      </div>
+
+      <div>
+        <label for="desc">Additional Description</label><br />
+        <textarea name="desc" id="des"></textarea> <br />
+      </div>
+
+      <div>
+        <label for="Pprice">Product Price :</label> <br />
+        <input type="text" name="Pprice" id="Pprice" placeholder="$100" pattern="[0-9]"/>
+      </div>
+
+      <button type="button">Submit</button>
+    </form>
+  </body>
+</html>
