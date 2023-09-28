@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
-import {RegisterValidation} from "../validation/RegisterValidation"
+import { RegisterValidation } from "../validation/RegisterValidation"
 
 function FormRegister() {
   const {
