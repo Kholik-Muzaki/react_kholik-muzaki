@@ -1,6 +1,6 @@
 # Deployment
 
-**Apa itu Deployment?**
+### Apa itu Deployment?
 
 Deployment adalah proses membuat aplikasi web Kita dapat diakses oleh publik. Ini melibatkan mengunggah aplikasi Kita ke server atau platform yang bisa diakses oleh pengguna akhir.
 
