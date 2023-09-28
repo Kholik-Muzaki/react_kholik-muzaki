@@ -21,11 +21,11 @@ Secara umum, cara mengakses di React terbagi menjadi dua kategori, yaitu:
 
 1. **Kecepatan iterasi vs environment yang realistis**
 
-Beberapa kakas menawarkan feedback loop yang sangat cepat antara membuat sebuah perubahan dan melihat hasilnya, tetapi tidak memodelkan sifat dari peramban dengan tepat. Tools lain mungkin menggunakan environment peramban asli, tetapi mengurangi kecepatan iterasi dan lebih flakier pada server integrasi berkelanjutan.
+    Beberapa kakas menawarkan feedback loop yang sangat cepat antara membuat sebuah perubahan dan melihat hasilnya, tetapi tidak memodelkan sifat dari peramban dengan tepat. Tools lain mungkin menggunakan environment peramban asli, tetapi mengurangi kecepatan iterasi dan lebih flakier pada server integrasi berkelanjutan.
 
 2. **Seberapa banyak mock**
 
-Dengan komponen, perbedaan antara tes "unit" dan tes "integrasi" bisa tidak sesuai. Jika kita mengetes sebuah form, haruskah tes yang dilakukan juga menguji tombol yang ada didalamnya? Atau haruskah komponen memiliki rangkaian tes sendiri? Haruskah refactoring pada tombol merusak tes pada form?
+    Dengan komponen, perbedaan antara tes "unit" dan tes "integrasi" bisa tidak sesuai. Jika kita mengetes sebuah form, haruskah tes yang dilakukan juga menguji tombol yang ada didalamnya? Atau haruskah komponen memiliki rangkaian tes sendiri? Haruskah refactoring pada tombol merusak tes pada form?
 
 Pertimbangan memilih perkakas untuk testing tentu saja dikembalikan kepada kebutuhan masing-masing.
 
