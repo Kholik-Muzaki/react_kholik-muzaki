@@ -1,0 +1,18 @@
+User:
+Product description: fashion shop website
+Seed words: fashion, shop
+
+Assistant:
+1. ChicStyleEmporium
+2. FashionConnectShop
+3. ShopTrendsetter
+4. GlamorousThreads
+5. FashionSpotlightStore
+6. ShopStyleCentral
+7. TrendyClosetShop
+8. FashionHavenHub
+9. ShopCoutureCloset
+10. ChicBoutiqueFashion
+
+Link Google Doc:
+https://docs.google.com/document/d/1RWy5KxzUYJMstBg7wFZXdb_18SBJrroy5Qre_mSb-i0/edit?usp=sharing
