@@ -19,7 +19,7 @@ function App() {
       <Route path="/create-account" element={<CreateAccount />} />
       <Route path="/" element={<PrivateRoute />}>
         <Route path="/create-product" index element={<CreateProduct />} />
-        <Route path="/products" index element={<ListProduct />} />
+        <Route path="/product" index element={<ListProduct />} />
         <Route path="/product/:id" element={<ProductDetails />} />
         <Route path="/update-product/:id" element={<EditProduct />} />
       </Route>

@@ -44,14 +44,6 @@ function ListingProducts() {
       {stateProducts.status === "success" && (
         <div className="container">
           <div className="d-flex justify-content-end">
-            <button className="btn btn-primary">
-              <Link
-                to="/create-product"
-                className="text-white text-decoration-none"
-              >
-                Create Product
-              </Link>
-            </button>
           </div>
           <table className="table table-striped table-hover table-bordered mt-3">
             <thead>
@@ -86,9 +78,6 @@ function ListingProducts() {
                   <td>${product.productPrice}</td>
                   <td>
                     <div className="d-flex py-3 gap-1">
-                      <Link to={`/product/${product.id}`}>
-                        <button className="btn btn-primary">Detail</button>
-                      </Link>
                       <Link to={`/update-product/${product.id}`}>
                         <button className="btn btn-success">Edit</button>
                       </Link>
